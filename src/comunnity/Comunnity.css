@@ -1,0 +1,165 @@
+.comunnity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px;
+    background: linear-gradient(
+        to top,
+        #000 75%,
+        #19151B
+    );
+}
+
+.comunnity>.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 35px;
+}
+
+.comunnity>.box>.left,
+.comunnity>.box>.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.comunnity>.box>.right {
+    width: 50%;
+    gap: 35px;
+}
+
+.comunnity>.box>.left,
+.comunnity>.box>.right {
+    p {
+        font-size: 35px;
+        color: white;
+    }
+
+    span {
+        color: #acacac;
+        font-size: 19px;
+    }
+
+    button {
+        padding: 9px 35px;
+        background: black;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        gap: 15px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .all {
+        width: 100%;
+        border-bottom: 1px solid silver;
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            display: flex;
+            gap: 15px;
+            font-size: 19px;
+            background: transparent;
+        }
+    }
+    
+    .big {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        margin-top: 50px;
+        height: 375px;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        span {
+            width: 475px;
+        }
+
+        div, img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .update {
+        background: #19171C;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 35px;
+        padding: 35px;
+        border-radius: 25px;
+        height: 375px;
+        width: 100%;
+
+        .btns {
+            display: flex;
+            gap: 35px;
+            
+            button {
+                display: flex;
+                gap: 15px;
+                background: transparent;
+                font-size: 19px;
+                cursor: pointer;
+                padding: 18px 55px;
+                border-radius: 35px;
+            }
+        }
+
+        span {
+            margin-top: -70px;
+            width: 435px;
+            line-height: 30px;
+        }
+
+        form {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding: 15px;
+            background: black;
+            border-radius: 50px;
+
+            input {
+                background: transparent;
+                color: white;
+                font-size: 19px;
+            }
+
+            button {
+                padding: 12px 35px;
+                border: none;
+                background: #18EF93;
+                color: black;
+                font-size: 17px;
+            }
+
+        }
+
+    }
+}
+
+.span2 {
+    width: 455px;
+    line-height: 30px;
+}
+
+.btnEnd {
+    padding: 6px 35px !important;
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+.box {
+    width: 1350px;
+}
+
+article {
+    background: url("./objectPic/itstime/timeback.png");
+    background-size: cover;
+}
+
+
+
+.App {
+    position: relative;
+    background: black;
+    min-height: 100vh;
+    
+    header {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 987 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        width: 100%;
+
+        img {
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            gap: 35px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0px;
+        }
+        
+        a {
+            color: gray;
+            font-size: 18px;
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            svg {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.footer {
+    background: #000508;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-top: 1px solid #222;
+    .box {
+        padding: 75px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5%;
+}
+
+.footer-left {
+    width: 35%;
+    display: flex;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .footer-logos {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 100px;
+    }
+}
+
+.footer-logo {
+    width: 25px;
+}
+
+.footer-managed {
+    color: white;
+    font-size: 17px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-social-icons img {
+    background: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer-copy {
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footerRight{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-solana-links,
+.footer-connect-links {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-solana-links h1,
+.footer-connect-links h1 {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.footer-solana-links p,
+.footer-connect-links p {
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.footer-solana-links p:hover,
+.footer-connect-links p:hover {
+    color: white;
+}
+
+.footer-language {
+    width: 15%;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: gray;
+}

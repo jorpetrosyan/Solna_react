@@ -1,0 +1,39 @@
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1000px;
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+
+        h3 {
+            font-size: 45px;
+            line-height: 55px;
+        }
+        
+        p {
+            font-size: 135px;
+            margin: 35px 0px;
+            color: transparent;
+            background-clip: text !important;
+            animation: forMHER 175s linear infinite;
+        }
+
+        span {
+            font-size: 19px;
+            margin: 35px 0px;
+        }
+
+    }
+}
+
+@keyframes forMHER {
+    to {
+        background-position-x: -15000px;
+    }
+}
+
